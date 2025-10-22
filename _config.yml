@@ -7,6 +7,9 @@ url: https://r0sek.github.io/cmecs-documentation
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
+plugins:
+  - jekyll-default-layout  
+
 # Set output URL style
 permalink: pretty
 
