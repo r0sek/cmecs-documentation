@@ -1,5 +1,6 @@
 ---
 title: About CMECS
+nav_order: 1
 layout: home
 ---
 
