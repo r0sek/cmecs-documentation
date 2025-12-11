@@ -2,7 +2,6 @@
     uses: ruby/setup-ruby@v1
     with:
       ruby-version: '3.3'
-      # We manually manage bundle install to handle missing Lockfile gracefully
       bundler-cache: false 
   - name: Setup Pages
     id: pages
@@ -10,9 +9,8 @@
   - name: Install Dependencies
     run: bundle install
   - name: Build with Jekyll
-    # --baseurl defaults to the repository name if not specified in _config.yml
-    # configure-pages handles the correct path normalization
-    run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+    # Added --trace to see full error stack
+    run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --trace
     env:
       JEKYLL_ENV: production
   - name: Upload artifact
