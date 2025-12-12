@@ -1,4 +1,6 @@
-title: CMECS Documentation description: Information about CMECS and its implementation and maintenance theme: just-the-docs
+title: CMECS Documentation 
+description: Information about CMECS and its implementation and maintenance 
+theme: just-the-docs
 
 url: https://r0sek.github.io baseurl: "/cmecs-documentation"
 
