@@ -1,0 +1,8 @@
+---
+---
+@import "just-the-docs";
+// Override the logo max-height (default is often small)
+.site-logo {
+  max-height: 200px !important; /* Adjust this value as needed */
+  max-width: 100%;
+}
