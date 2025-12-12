@@ -1,0 +1,8 @@
+/* increase header logo size */
+.site-logo img,
+.site-branding img,
+.site-header .site-logo img {
+  max-height: 120px !important; /* change 120px to whatever you want */
+  height: auto !important;
+  width: auto !important;
+}
