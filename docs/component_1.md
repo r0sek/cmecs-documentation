@@ -1,5 +1,5 @@
 ---
-title: Component 1
+title: The CMECS Document
 layout: default
 parent: Structure
 nav_order: 1
