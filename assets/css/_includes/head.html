@@ -1,0 +1,7 @@
+{%- comment -%}
+This file adds a custom stylesheet after the theme CSS so our logo size override takes effect.
+If your theme already defines _includes/head.html, adding this file will override it.
+If you'd rather not override the whole head, instead add the <link> below to your existing head include.
+{%- endcomment -%}
+
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
