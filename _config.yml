@@ -5,8 +5,7 @@ url: https://r0sek.github.io
 baseurl: "/cmecs-documentation"
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
-plugins:
-  - just-the-docs
+plugins: []
 # Set output URL style
 permalink: pretty
 # Set a path/url to a logo that will be displayed instead of the title
