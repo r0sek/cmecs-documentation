@@ -1,15 +1,21 @@
 title: CMECS Documentation
 description: Information about CMECS and its implementation and maintenance
 theme: just-the-docs
+
 url: https://r0sek.github.io
 baseurl: "/cmecs-documentation"
 aux_links:
   CMECS Catalog Repository: https://github.com/NOAA-OCM/cmecs
+  opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
+
 plugins: []
+
 # Set output URL style
 permalink: pretty
+
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/CMECS logo - FINAL_notext.png"
+
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
