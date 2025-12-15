@@ -2,7 +2,7 @@
 title: The CMECS Document
 layout: default
 parent: About_CMECS
-nav_order: 3
+nav_order: 1
 ---
 # The CMECS Document
 
