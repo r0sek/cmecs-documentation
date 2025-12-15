@@ -6,7 +6,7 @@ url: https://r0sek.github.io
 baseurl: "/cmecs-documentation"
 aux_links:
   CMECS Catalog Repository:
-  - https://github.com/NOAA-OCM/cmecs
+    - https://github.com/NOAA-OCM/cmecs
     opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
 
 plugins: []
