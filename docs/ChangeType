@@ -1,0 +1,17 @@
+---
+Title: Change Type
+parent: Status_ChangeType
+nav-order: 2
+---
+# Change Type
+
+- **Addition** An Original Unit is added to the CMECS classification and Catalog and is assigned a unique Unit Code.
+- **Deprecation** A unit is removed from the CMECS classification, but remains a member of the CMECS Catalog along with its Unit Code.
+- **Split** A single unit is divided into multiple new units as the result of a conceptual change to the predecessor unit. The Unit ID of the predecessor unit may be retained by one of the derived units; unique Unit IDs may also be assigned to additional derived units. 
+- **Lump** Multiple predecessor units are combined into a single unit, which represents a new or modified concept within the CMECS classification. The Unit ID of one of the predecessor units may be retained by the derived unit, or all predecessor Unit IDs may be deprecated and a new Unit ID assigned to the derived unit.
+- **Complex Split/Lump** Multiple predecessor units are both split and lumped as the result of conceptual changes to form multiple new units. Unique Unit IDs may be assigned or deprecated.
+- **Change in Level** A type of membership change where a unit is moved either up or down from one level of the hierarchy to another as necessitated by conceptual changes to other units. No change to the Unit ID is necessary.
+- **Membership Change** A unit moves laterally within the hierarchy, but does not change conceptually  (e.g., a biotic community moves from one biotic group to another.) No change to the Unit ID is necessary.
+- **Name Change** The name of the unit is changed. This includes changes to accommodate prevailing usage (eg. starfish becomes seastar), but not corrections to typographical errors. No change to the Unit ID is necessary.
+- **Attribute Change** Addition of new attributes and content changes or corrections to any other attribute of the unit (e.g., adding new implementation guidance, references.) No change to the Unit ID is necessary.
+- **Editorial Change** Changes that correct typographic errors and grammar, or that clarify existing text. No change to the Unit ID is necessary.
