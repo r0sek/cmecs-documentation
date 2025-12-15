@@ -1,5 +1,5 @@
 ---
-title: The Coastal and Marine Ecological Classification Standard
+title: Home
 nav_order: 1
 layout: home
 ---
